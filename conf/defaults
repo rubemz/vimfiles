@@ -8,6 +8,22 @@ nnoremap <silent> <A-Left> <c-w>h
 nnoremap <silent> <A-Up> <c-w>k
 nnoremap <silent> <A-Down> <c-w>j
 
+" disabling the arrow keys
+noremap  <Up> ""
+noremap! <Up> <Esc>
+noremap  <Down> ""
+noremap! <Down> <Esc>
+noremap  <Left> ""
+noremap! <Left> <Esc>
+noremap  <Right> ""
+noremap! <Right> <Esc>
+
+" Turn backup off, since most stuff is in SVN, git anyway...
+set nobackup
+set nowritebackup
+set nowb
+set noswapfile
+
 " search options
 set ignorecase smartcase gdefault showmatch hlsearch incsearch
 
