@@ -3,41 +3,26 @@
 " let Vundle manage Vundle
 " required!
 Bundle 'gmarik/vundle'
-
 Bundle 'nanotech/jellybeans.vim'
-
 Bundle 'Lokaltog/vim-powerline'
-
 Bundle 'kien/ctrlp.vim'
 Bundle 'scrooloose/nerdtree'
 Bundle 'bufexplorer.zip'
-
 Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'
-
 Bundle 'tpope/vim-repeat'
-
 Bundle 'tsaleh/vim-align'
-
 Bundle 'tpope/vim-endwise'
-
 Bundle 'tpope/vim-surround'
 Bundle 'briandoll/change-inside-surroundings.vim'
-
 Bundle 'ervandew/supertab'
-
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'jeffkreeftmeijer/vim-numbertoggle'
-
 Bundle 'matchit.zip'
 Bundle 'ruby-matchit'
-
 Bundle 'tpope/vim-rails'
-
 Bundle 'ecomba/vim-ruby-refactoring'
-
 Bundle 'ap/vim-css-color'
-
 Bundle 'rodjek/vim-puppet'
 Bundle 'tpope/vim-cucumber'
 Bundle 'tpope/vim-haml'
