@@ -1,12 +1,12 @@
 " vim: filetype=vim
 filetype plugin indent on
-let mapleader = ","
 
-" Move between terminals using ALT + Arrows
-nnoremap <silent> <A-Right> <c-w>l
-nnoremap <silent> <A-Left> <c-w>h
-nnoremap <silent> <A-Up> <c-w>k
-nnoremap <silent> <A-Down> <c-w>j
+
+"to move around the windows
+nnoremap <C-h> <C-w>h
+nnoremap <C-j> <C-w>j
+nnoremap <C-k> <C-w>k
+nnoremap <C-l> <C-w>l
 
 " disabling the arrow keys
 noremap  <Up> ""
